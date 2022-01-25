@@ -221,15 +221,26 @@ fieldset {
 .bottom a {
   position: flex;
   text-decoration: none;
+  color: #069ad4;
+  font-weight: bold;
 }
 #reg {
   position: absolute;
-  top: 1rem;
-  left: 13.4rem;
+  top: 1.3rem;
+  left: 13rem;
   width: 6rem;
 }
 #forg {
   position: absolute;
-  top: 1rem;
-  left: 20rem;
+  top: 1.3rem;
+  left: 19.5rem;
 }
+#reg::after {
+  content: "";
+  border: 0.8px solid black;
+  opacity: 0.3;
+  position: absolute;
+  height: 1.5rem;
+  left: 6rem;
+}
+a 
