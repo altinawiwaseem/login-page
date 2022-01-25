@@ -22,7 +22,7 @@ h1 {
 }
 .left-box {
   position: absolute;
-  /* margin: 20px 20px ; */
+
   left: 25rem;
   top: 3rem;
 }
@@ -60,10 +60,6 @@ h1 {
   font-size: 2rem;
   left: 45%;
   top: 30%;
-  /* bottom: 50%;
-    right: 50%;  */
-  /* margin-top: 50%;
-    margin-left: 50%; */
   text-align: center;
   justify-content: center;
   border-radius: 100%;
@@ -205,7 +201,7 @@ ul li a {
 }
 
 fieldset {
-  border: 1px solid black;
+  border: 1px solid gray;
   margin: 0.5rem;
   padding-bottom: 2rem;
 }
@@ -243,4 +239,11 @@ fieldset {
   height: 1.5rem;
   left: 6rem;
 }
-a 
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
