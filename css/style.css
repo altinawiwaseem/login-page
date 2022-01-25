@@ -19,6 +19,7 @@ h1 {
   font-size: 1.5rem;
   left: 2rem;
   position: relative;
+  opacity: 0.7;
 }
 .left-box {
   position: absolute;
@@ -206,6 +207,7 @@ fieldset {
   padding-bottom: 2rem;
 }
 .fieldset-bottom {
+  border-color: gray;
   border-top: none;
   position: relative;
   top: -1rem;
