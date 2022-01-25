@@ -11,11 +11,8 @@ body {
   position: relative;
   border: 1px black solid;
   width: 40rem;
-  height: 25rem;
+  height: 21.5rem;
   margin: 10rem auto;
-  
-
-  
 }
 h1 {
   margin-bottom: 2rem;
@@ -57,12 +54,12 @@ h1 {
   left: 0.3rem;
   font-size: 2rem;
 }
-.middle-line{
+.middle-line {
   border: 1px solid black;
   position: absolute;
   font-size: 2rem;
   left: 45%;
-  top: 40%;
+  top: 30%;
   /* bottom: 50%;
     right: 50%;  */
   /* margin-top: 50%;
@@ -76,23 +73,22 @@ h1 {
 .middle-line::after {
   content: "";
   border: 1px black solid;
-  height: 5rem;
+  height: 4rem;
   position: absolute;
   background-color: black;
   left: 1.7000000000000002rem;
-  bottom: -6rem;
+  bottom: -5rem;
   opacity: 0.5;
 }
 .middle-line::before {
   content: "";
   border: 1px black solid;
-  height: 5rem;
+  height: 4rem;
   position: absolute;
   background-color: black;
   left: 1.7000000000000002rem;
   bottom: 5rem;
   opacity: 0.5;
-  
 }
 label {
   font-weight: bold;
@@ -207,16 +203,33 @@ ul li a {
   left: 2.4rem;
   top: 0.8rem;
 }
-/* .bottom{
-background-color: white;
+
+fieldset {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding-bottom: 2rem;
+}
+.fieldset-bottom {
+  border-top: none;
+  position: relative;
+  top: -1rem;
+  height: 3.5rem;
+}
+.bottom {
+  position: relative;
+}
+.bottom a {
+  position: flex;
+  text-decoration: none;
+}
+#reg {
   position: absolute;
-  border: 1px black solid;
-  width: 40rem;
-  height: 3rem;
- 
-  margin: 0 auto auto auto; */
-  fieldset{
-      border: 1px solid black;
-      margin: 0.5rem ;
-      padding-bottom: 2rem;
-  }
+  top: 1rem;
+  left: 13.4rem;
+  width: 6rem;
+}
+#forg {
+  position: absolute;
+  top: 1rem;
+  left: 20rem;
+}
