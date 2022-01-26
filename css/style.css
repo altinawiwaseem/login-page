@@ -4,248 +4,38 @@
   margin: 0;
 }
 body {
-  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 .container {
-  background-color: white;
-  position: relative;
+  display: flex;
+  width: 43rem;
+  height: 20rem;
   border: 1px black solid;
-  width: 40rem;
-  height: 21.5rem;
-  margin: 10rem auto;
-}
-h1 {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
-  left: 2rem;
-  position: relative;
-  opacity: 0.7;
-}
-.left-box {
-  position: absolute;
+  flex-wrap: wrap;
 
-  left: 25rem;
-  top: 3rem;
-}
-.left-box input[type="text"],
-.left-box input[type="password"] {
-  display: block;
-  margin-bottom: 20px;
-  width: 12rem;
-  height: 2rem;
-  border: none;
-  border-bottom: 1px black solid;
-}
-::placeholder {
-  position: relative;
-  left: 3rem;
-  font-weight: bold;
-}
-.fa-user {
-  color: #706d6d;
-  position: absolute;
-  top: 3.4rem;
-  left: 0.3rem;
-  font-size: 2rem;
-}
-.fa-lock {
-  color: #706d6d;
-  position: absolute;
-  top: 6.6rem;
-  left: 0.3rem;
-  font-size: 2rem;
-}
-.middle-line {
-  border: 1px solid black;
-  position: absolute;
-  font-size: 2rem;
-  left: 45%;
-  top: 30%;
-  text-align: center;
-  justify-content: center;
-  border-radius: 100%;
-  padding: 1rem;
-  opacity: 0.5;
-}
-.middle-line::after {
-  content: "";
-  border: 1px black solid;
-  height: 4rem;
-  position: absolute;
-  background-color: black;
-  left: 1.7000000000000002rem;
-  bottom: -5rem;
-  opacity: 0.5;
-}
-.middle-line::before {
-  content: "";
-  border: 1px black solid;
-  height: 4rem;
-  position: absolute;
-  background-color: black;
-  left: 1.7000000000000002rem;
-  bottom: 5rem;
-  opacity: 0.5;
-}
-label {
-  font-weight: bold;
-  opacity: 0.7;
-  position: absolute;
-  top: 11rem;
-  left: 1.7rem;
-  font-size: 0.9rem;
-}
-input[type="submit"] {
-  width: 4.5rem;
-  height: 2.4rem;
-  background-color: rgb(95, 181, 252);
-  color: white;
-  border: none;
-  position: absolute;
-  left: 8rem;
-  border-radius: 5px;
-}
-input[type="checkbox"] {
-  position: absolute;
-  top: 11rem;
+  /* justify-content: end; */
 }
 .right-box {
-  position: relative;
-  left: 1rem;
-  top: 1.5rem;
-}
-ul li {
-  list-style: none;
   padding: 1rem;
-  margin-bottom: 3rem;
+  width: 19rem;
+  height: 15rem;
 }
-ul li a {
-  text-decoration: none;
-}
-#facebook {
-  background-color: #4267b2;
-  color: white;
-  position: absolute;
-  width: 10rem;
-  height: 3rem;
-  text-align: center;
-  line-height: 3rem;
-}
-#twitter {
-  background-color: #00acee;
-  color: white;
-  position: absolute;
-  width: 10rem;
-  height: 3rem;
-  text-align: center;
-  line-height: 3rem;
-}
-#google {
-  background-color: #db4a39;
-  color: white;
-  position: absolute;
-  width: 10rem;
-  height: 3rem;
-  text-align: center;
-  line-height: 3rem;
-}
-.fa-facebook-f {
-  position: absolute;
-  top: 1rem;
-  background-color: #4267b2;
-  color: white;
-  width: 2rem;
-  height: 3rem;
+.left-box {
   padding: 1rem;
+  width: 20rem;
+  height: 15rem;
 }
-.fa-twitter {
-  position: absolute;
-  top: 11rem;
-  background-color: #00acee;
-  color: white;
-  width: 2rem;
-  height: 3rem;
+.middle-line {
   padding: 1rem;
-}
-.fa-google-plus-g {
-  position: absolute;
-  top: 6rem;
-  background-color: #db4a39;
-  color: white;
-  width: 2rem;
-  height: 3rem;
-  padding: 1rem;
-}
-.fa-google-plus-g::after {
-  content: "";
-  position: absolute;
-  border: 0.4px solid gray;
-  height: 1.5rem;
-  left: 2.7rem;
-  top: 0.8rem;
-}
-.fa-twitter::after {
-  content: "";
-  position: absolute;
-  border: 0.4px solid gray;
-  height: 1.5rem;
-  left: 2.7rem;
-  top: 0.8rem;
-}
-.fa-facebook-f::after {
-  content: "";
-  position: absolute;
-  border: 0.4px solid gray;
-  height: 1.5rem;
-  left: 2.4rem;
-  top: 0.8rem;
+  width: 3rem;
+  height: 15rem;
 }
 
-fieldset {
-  border: 1px solid gray;
-  margin: 0.5rem;
-  padding-bottom: 2rem;
-}
-.fieldset-bottom {
-  border-color: gray;
-  border-top: none;
-  position: relative;
-  top: -1rem;
-  height: 3.5rem;
-}
-.bottom {
-  position: relative;
-}
-.bottom a {
-  position: flex;
-  text-decoration: none;
-  color: #069ad4;
-  font-weight: bold;
-}
-#reg {
-  position: absolute;
-  top: 1.3rem;
-  left: 13rem;
-  width: 6rem;
-}
-#forg {
-  position: absolute;
-  top: 1.3rem;
-  left: 19.5rem;
-}
-#reg::after {
-  content: "";
-  border: 0.8px solid black;
-  opacity: 0.3;
-  position: absolute;
-  height: 1.5rem;
-  left: 6rem;
-}
-a:link,
-a:visited,
-a:focus {
-  text-decoration: none;
-}
-a:hover {
-  font-weight: bold;
+.buttom-box {
+  width: 43rem;
+  height: 5rem;
 }

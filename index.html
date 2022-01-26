@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css"
-    />
-    <title>login-page</title>
+    <title>login using flex-box</title>
   </head>
   <body>
-    <div class="container">
-      <fieldset>
-        <div class="left-box">
+    <section class="container">
+      <article class="left-box">
+        <div></div>
+      </article>
+      <article class="middle-line"></article>
+      <article class="right-box">
+        <div>
           <h1>Sign in with</h1>
           <form action="index.js" method="get">
             <input
@@ -39,27 +39,8 @@
             <input type="submit" value="LOGIN" />
           </form>
         </div>
-
-        <span class="middle-line"> or</span>
-        <div class="right-box">
-          <ul>
-            <li><a href="#" id="facebook">Facebook login</a></li>
-            <li><a href="#" id="google">Google+login</a></li>
-            <li><a href="#" id="twitter">Twitter login</a></li>
-          </ul>
-          <div>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-google-plus-g"></i>
-          </div>
-        </div>
-      </fieldset>
-      <fieldset class="fieldset-bottom">
-        <span class="bottom">
-          <a href="#" id="reg">Register now</a>
-          <a href="#" id="forg">Forgotten?</a>
-        </span>
-      </fieldset>
-    </div>
+      </article>
+      <article class="buttom-box"></article>
+    </section>
   </body>
 </html>
