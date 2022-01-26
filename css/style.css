@@ -9,19 +9,21 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
 }
 .container {
+  background-color: white;
   display: flex;
   width: 43rem;
   height: 20rem;
-  border: 1px black solid;
   flex-wrap: wrap;
   position: relative;
-  /* justify-content: end; */
 }
+
 .right-box {
   padding: 1rem;
-  width: 19rem;
+  width: 20rem;
   height: 20rem;
   position: relative;
 }
@@ -30,18 +32,22 @@ body {
   padding: 1rem;
   width: 20rem;
   height: 20rem;
+  top: 1rem;
+  left: 1rem;
 }
-.middle-line {
+.middle {
   position: relative;
   padding: 1rem;
   width: 3rem;
   height: 15rem;
 }
-
 .buttom-box {
   position: relative;
+  border-top: 1px black solid;
   width: 43rem;
   height: 3rem;
+  background-color: white;
+  display: flex;
 }
 h1 {
   margin-bottom: 2rem;
@@ -96,7 +102,7 @@ input[type="submit"] {
   color: #706d6d;
   position: absolute;
   top: 5.8rem;
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .fa-lock {
   color: #706d6d;
@@ -104,4 +110,157 @@ input[type="submit"] {
   top: 9rem;
   font-size: 2rem;
 }
-
+.right-box {
+  position: relative;
+  left: 1rem;
+  top: 1.5rem;
+}
+ul li {
+  list-style: none;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+ul li a {
+  text-decoration: none;
+}
+#facebook {
+  background-color: #4267b2;
+  color: white;
+  position: absolute;
+  width: 11rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+#twitter {
+  background-color: #00acee;
+  color: white;
+  position: absolute;
+  width: 11rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+#google {
+  background-color: #db4a39;
+  color: white;
+  position: absolute;
+  width: 11rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.fa-facebook-f {
+  position: absolute;
+  top: 2rem;
+  background-color: #4267b2;
+  color: white;
+  width: 2rem;
+  height: 3rem;
+  padding: 1rem;
+}
+.fa-twitter {
+  position: absolute;
+  top: 12rem;
+  background-color: #00acee;
+  color: white;
+  width: 2rem;
+  height: 3rem;
+  padding: 1rem;
+}
+.fa-google-plus-g {
+  position: absolute;
+  top: 7rem;
+  background-color: #db4a39;
+  color: white;
+  width: 2rem;
+  height: 3rem;
+  padding: 1rem;
+}
+.fa-google-plus-g::after {
+  content: "";
+  position: absolute;
+  border: 0.4px solid gray;
+  height: 1.5rem;
+  left: 2.7rem;
+  top: 0.8rem;
+}
+.fa-twitter::after {
+  content: "";
+  position: absolute;
+  border: 0.4px solid gray;
+  height: 1.5rem;
+  left: 2.7rem;
+  top: 0.8rem;
+}
+.fa-facebook-f::after {
+  content: "";
+  position: absolute;
+  border: 0.4px solid gray;
+  height: 1.5rem;
+  left: 2.4rem;
+  top: 0.8rem;
+}
+.middle-line {
+  border: 0.3px solid black;
+  position: absolute;
+  font-size: 2rem;
+  border-radius: 100%;
+  left: -1.2rem;
+  top: 8rem;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0.5;
+}
+.middle-line::after {
+  content: "";
+  border: 1px black solid;
+  height: 4rem;
+  position: absolute;
+  background-color: black;
+  left: 1.7000000000000002rem;
+  bottom: -5rem;
+  opacity: 0.5;
+}
+.middle-line::before {
+  content: "";
+  border: 1px black solid;
+  height: 4rem;
+  position: absolute;
+  background-color: black;
+  left: 1.7000000000000002rem;
+  bottom: 5rem;
+  opacity: 0.5;
+}
+.bottom-box {
+  position: relative;
+}
+.bottom {
+  position: relative;
+}
+.bottom a {
+  position: flex;
+  text-decoration: none;
+  color: #069ad4;
+  font-weight: bold;
+}
+#reg {
+  position: absolute;
+  top: 0.8rem;
+  left: 14.5rem;
+  width: 6rem;
+}
+#forg {
+  position: absolute;
+  top: 0.8rem;
+  left: 21.5rem;
+}
+#reg::after {
+  content: "";
+  border: 0.8px solid black;
+  opacity: 0.3;
+  position: absolute;
+  height: 1.5rem;
+  left: 6rem;
+}
