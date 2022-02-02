@@ -1,6 +1,6 @@
 # mobile-app
-**an assignment to make a login form (copying a given photo)**   
 
+**an assignment to make a login form (copying a given photo)**
 
 [Test it by yourself](https://altinawiwaseem.github.io/login-page/)
 
@@ -8,17 +8,20 @@
 
 ![layout](./img/login.png)
 
-
 ---
+
 ### about the project
-Clone a Login form 
+
+Clone a Login form
+
 - using html & css only
 
-
 ### How to use this project
-An assignment given by DCI institute for practicing purpose 
+
+An assignment given by DCI institute for practicing purpose
 
 #### Developed with
+
 - [x] _HTML5_
 - [x] _CSS3_
 - [ ] _SASS_
@@ -30,7 +33,9 @@ An assignment given by DCI institute for practicing purpose
 - [ ] _..._
 
 ---
+
 ### Contact
+
 Email: <wasemm@live.com><br>
 GitHub: [Altinawiwaseem](https://github.com/altinawiwaseem)
 
